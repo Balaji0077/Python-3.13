@@ -1,5 +1,5 @@
 ARG SUB_BASE_IMAGE=716533421362.dkr.ecr.us-east-1.amazonaws.com/phenompeople/debian-custom:13.3
-FROM python:3.14.2-slim-bookworm@sha256:adb6bdfbcc7c744c3b1a05976136555e2d82b7df01ac3efe71737d7f95ef0f2d AS python-runtime
+FROM python:3.15.0-slim-bookworm@sha256:edb77704c22e427c61cd6644d21b8472a330b641324798ae4472f26d68a23219 AS python-runtime
 
 ENV PYTHONDONTWRITEBYTECODE="1" \
     PYTHONUNBUFFERED="1" \
